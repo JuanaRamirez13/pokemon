@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="shortcut icon" href="imgcss/Pokémon_logo.svg.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="menu">
+                <a href="./bienvenida.html">
+                    <div class="puntos">
+                    <p class="textoboton">Volver</p>  
+                    </div>
+                </a>
+       </div>
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+    
+    <script>
+        const list = document.querySelectorAll('.list'); 
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        } 
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink))
+    </script>
+    
+<div class="textogrande">
+  <p>Cards</p>
+</div>
+
+<script scr="cards.js"></script>
+
+
+  
+<ul class="cards">
+  <div class="container"></div>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/001.png" class="card__image" alt="" />
+      <div class="card__overlay">
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>          
+          <div class="card__header-text">
+            <h3 class="card__title">Bulbasaur</h3>            
+            <span class="card__status">N.º001</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 0,7 m</p>
+        <p class="card__description">Peso: 6,9 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Semilla</p>
+        <p class="card__description">Habilidad: Espesura</p> 
+        <p class="card__description">Tipo: Planta - Veneno</p>
+        <p class="card__description"> Debilidad: Fuego, psíquico, volador e hielo</p> 
+      </div>
+    </a>      
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/002.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Ivysaur</h3>
+            <span class="card__status">N. º002</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,0 m</p>
+        <p class="card__description">Peso: 6,9 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Semilla</p>
+        <p class="card__description">Habilidad: Espesura</p> 
+        <p class="card__description">Tipo: Planta - Veneno</p>
+        <p class="card__description"> Debilidad: Fuego, psíquico, volador e hielo</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/003.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Venusaur</h3>
+            <span class="card__status">N. º003</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 2 m</p>
+        <p class="card__description">Peso: 100 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Semilla</p>
+        <p class="card__description">Habilidad: Espesura</p> 
+        <p class="card__description">Tipo: Planta - Veneno</p>
+        <p class="card__description"> Debilidad: Fuego, psíquico, volador e hielo</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/004.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Charmander</h3>
+            <span class="card__status">N. º004</span>
+          </div>
+        </div>
+        <p class="card__description">Altura:  0,6 m</p>
+        <p class="card__description">Peso: 8,5 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Lagartija</p>
+        <p class="card__description">Habilidad: Mar de llamas</p> 
+        <p class="card__description">Tipo: Fuego</p>
+        <p class="card__description"> Debilidad: Agua, tierra y roca.</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/005.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Charmeleon</h3>
+            <span class="card__status">N. º005</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,1 m</p>
+        <p class="card__description">Peso: 19,0 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Llama</p>
+        <p class="card__description">Habilidad: Mar de llamas</p> 
+        <p class="card__description">Tipo: Fuego</p>
+        <p class="card__description"> Debilidad: Agua, tierra y roca.</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/006.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Charmander</h3>
+            <span class="card__status">N. º006</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,7 m</p>
+        <p class="card__description">Peso: 90,5 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Llama</p>
+        <p class="card__description">Habilidad: Mar de llamas</p> 
+        <p class="card__description">Tipo: Fuego</p>
+        <p class="card__description"> Debilidad: Agua, tierra y roca.</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/007.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Squirtle</h3>
+            <span class="card__status">N. º007</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 0,5 m</p>
+        <p class="card__description">Peso: 90,5 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Tortuguita</p>
+        <p class="card__description">Habilidad: Torrente</p> 
+        <p class="card__description">Tipo: Agua</p>
+        <p class="card__description"> Debilidad: Planta y eléctrico</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/008.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Wartortle</h3>
+            <span class="card__status">N. º008</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,0 m</p>
+        <p class="card__description">Peso: 22,5 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Tortugua</p>
+        <p class="card__description">Habilidad: Torrente</p> 
+        <p class="card__description">Tipo: Agua</p>
+        <p class="card__description"> Debilidad: Planta y eléctrico</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/009.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Blastoise</h3>
+            <span class="card__status">N. º009</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,0 m</p>
+        <p class="card__description">Peso: 85,5 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Armazon</p>
+        <p class="card__description">Habilidad: Torrente</p> 
+        <p class="card__description">Tipo: Agua</p>
+        <p class="card__description"> Debilidad: Planta y eléctrico</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/010.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Caterpie</h3>
+            <span class="card__status">N. º010</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 0,3 m</p>
+        <p class="card__description">Peso: 2,9 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Gusano</p>
+        <p class="card__description">Habilidad: Polvo Escudo</p> 
+        <p class="card__description">Tipo: Bicho</p>
+        <p class="card__description"> Debilidad: Fuego, volador y roca</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/011.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Metapod</h3>
+            <span class="card__status">N. º011</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 0,7 m</p>
+        <p class="card__description">Peso: 9,9 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: Capullo</p>
+        <p class="card__description">Habilidad: Mudar</p> 
+        <p class="card__description">Tipo: Bicho</p>
+        <p class="card__description"> Debilidad: Fuego, volador y roca</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/012.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Butterfree</h3>
+            <span class="card__status">N. º012</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,1 m</p>
+        <p class="card__description">Peso: 32,0 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: mariposa</p>
+        <p class="card__description">Habilidad: Ojo Compuesto</p> 
+        <p class="card__description">Tipo: Bicho, volador</p>
+        <p class="card__description"> Debilidad: Fuego, volador, electrico, hielo y roca</p> 
+      </div>
+    </a>
+  </li>
+  <li>
+    <a href="" class="card">
+      <img src="imgcss/013.png" class="card__image" alt="" />
+      <div class="card__overlay">        
+        <div class="card__header">
+          <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>    
+          <div class="card__header-text">
+            <h3 class="card__title">Weedle</h3>
+            <span class="card__status">N. º013</span>
+          </div>
+        </div>
+        <p class="card__description">Altura: 1,1 m</p>
+        <p class="card__description">Peso: 32,0 kg</p>
+        <p class="card__description">Sexo: ♀ ♂</p>
+        <p class="card__description">Categoría: mariposa</p>
+        <p class="card__description">Habilidad: Ojo Compuesto</p> 
+        <p class="card__description">Tipo: Bicho, volador</p>
+        <p class="card__description"> Debilidad: Fuego, volador, electrico, hielo y roca</p> 
+      </div>
+    </a>
+  </li>
+  
+</div>
+</ul>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+    <link rel="shortcut icon" href="imgcss/pokemon_PNG107.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Merriweather+Sans:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+     <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <center><img class="w3-image" src="imgcss/Pokémon_logo.svg.png" alt="Fashion Blog"></center>
+    
+  </header>
+
+    <div class="menu">
+        <ul>
+                <a href="./pokedex.html">
+                    <div class="jugar"> </div>
+                    <div class="texto1">
+                        <p>Jugar</p>
+                    </div>
+                </a>
+
+                <a href="./cards.html">
+                    <div class="cards"> 
+                        <div class="texto2">
+                           <p>Cards</p> 
+                        </div>
+                    </div>
+                </a>  
+                
+            <div class="indicador"></div>
+        </ul>
+       </div>
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> 
+    
+    <script>
+        const list = document.querySelectorAll('.list'); 
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        } 
+        list.forEach((item) =>
+        item.addEventListener('click',activeLink))
+    </script>
+
+</body>
+</html>
